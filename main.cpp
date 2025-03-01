@@ -2,7 +2,7 @@
 #include <string>
 using namespace  std;
 
-bool IsKPeriodic(const string& str, int k) {
+bool IsKPeriodic(const string& str, const int& k) {
 	int size = str.size();
 	if (k < 1 || k > size || size % k != 0 || str.empty()) { // Проверяем k и длину строки (длина должна быть кратна k)
 		cout << "String is not multiple of " << k << endl;
