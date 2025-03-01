@@ -25,29 +25,29 @@ int main(int argc, char* argv[])
 	string str = "abcabcabcabcabcabc";
 	cout << "string = \"" << str << "\"" << endl << endl;
 
-	IsKPeriodic(str, 1);
-	IsKPeriodic(str, 2);
-	IsKPeriodic(str, 3);
-	IsKPeriodic(str, 4);
-	IsKPeriodic(str, 5);
-	IsKPeriodic(str, 6);
-	IsKPeriodic(str, 7);
-	IsKPeriodic(str, 8);
-	IsKPeriodic(str, 9);
-	IsKPeriodic(str, 18); // Строка кратна сама себе
+	IsKPeriodic(str, 1); // String is not multiple of 1
+	IsKPeriodic(str, 2); // String is not multiple of 2
+	IsKPeriodic(str, 3); // String is multiple of 3
+	IsKPeriodic(str, 4); // String is not multiple of 4
+	IsKPeriodic(str, 5); // String is not multiple of 5
+	IsKPeriodic(str, 6); // String is multiple of 6
+	IsKPeriodic(str, 7); // String is not multiple of 7
+	IsKPeriodic(str, 8); // String is not multiple of 8
+	IsKPeriodic(str, 9); // String is multiple of 9
+	IsKPeriodic(str, 18); // String is multiple of 18 Строка кратна сама себе
 
 	str = "abcdabcdabcdabcdabcdabcd";
 	cout << endl << "string = \"" << str << "\"" << endl << endl;
 
-	IsKPeriodic(str, 1);
-	IsKPeriodic(str, 2);
-	IsKPeriodic(str, 3);
-	IsKPeriodic(str, 4);
-	IsKPeriodic(str, 5);
-	IsKPeriodic(str, 6);
-	IsKPeriodic(str, 7);
-	IsKPeriodic(str, 8);
-	IsKPeriodic(str, 9);
+	IsKPeriodic(str, 1); // String is not multiple of 1
+	IsKPeriodic(str, 2); // String is not multiple of 2
+	IsKPeriodic(str, 3); // String is not multiple of 3
+	IsKPeriodic(str, 4); // String is multiple of 4
+	IsKPeriodic(str, 5); // String is not multiple of 5
+	IsKPeriodic(str, 6); // String is not multiple of 6
+	IsKPeriodic(str, 7); // String is not multiple of 7
+	IsKPeriodic(str, 8); // String is multiple of 8
+	IsKPeriodic(str, 9); // String is not multiple of 9
 
 	return 0;
 }
